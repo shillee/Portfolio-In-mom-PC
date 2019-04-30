@@ -71,7 +71,7 @@ h1,h2,h3,h4,h5,h6{
 .inner__text{
     font-size: 50px;
     text-align: center;
-        font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 .inner__text_p{
     text-align: center;
@@ -195,6 +195,10 @@ header{
 .about__me{
     text-align: center;
     position: relative;
+    
+}
+.about__me h1{
+    font-family: 'Montserrat', sans-serif;
 }
 .about__text p{
     position: absolute;
@@ -209,9 +213,11 @@ header{
 .skills__title{
     text-align: center;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     font-family: 'Kaushan Script', cursive;
-
+}
+.skills__title p{
+    font-family: 'Montserrat', sans-serif;
 }
 .circle-1{
     font-size: 20px;
