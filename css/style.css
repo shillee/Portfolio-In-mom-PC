@@ -191,6 +191,7 @@ header{
 /* skills */
 .skills{
     height: 100vh;
+    position: relative;
 }
 .about__me{
     text-align: center;
@@ -289,7 +290,6 @@ header{
 .skills-down{
     display: flex;
     justify-content: center;
-    position: relative;
 }
 .container-skills{
     width: 100%;
@@ -301,7 +301,7 @@ header{
     width: 100%;
     position: absolute;
     left: 47%;
-    bottom: -80px;
+    bottom: 20px;
     z-index: 1;
     right: 53%;
 }
@@ -319,6 +319,7 @@ header{
 .myjobs{
     height: 100vh;
     padding-top: 20px;
+    position: relative;
 }
 
 .inner-slider img{
@@ -336,7 +337,6 @@ header{
 .slider-down{
     display: flex;
     justify-content: center;
-    position: relative;
 }
 .container-slider{
     width: 100%;
@@ -346,11 +346,9 @@ header{
 .slider-btn{
     position: absolute;
     width: 100%;
-    position: absolute;
     left: 47%;
-    bottom: -50px;
+    bottom: 20px;
     z-index: 1;
-    right: 53%;
 }
 .slider-btn i{
     color: #222;
